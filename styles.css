@@ -1,6 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   color: #444;
   font-family: sans-serif;
+  border-top: 10px solid rgb(16, 152, 173);
+}
+
+nav {
+  font-size: 18px;
+}
+
+.main-header {
+  background-color: #efefef;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+aside {
+  border-top: 5px solid rgb(16, 152, 173);
+  border-bottom: 5px solid rgb(16, 152, 173);
+  background-color: #efefef;
+  padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -17,10 +50,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -32,10 +68,30 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
 }
 
 #author {
@@ -43,8 +99,9 @@ li {
   font-size: 18px;
 }
 
-#copyright {
-  font-size: 16px;
+.post-image {
+  width: 100%;
+  height: auto;
 }
 
 .related-author {
@@ -54,24 +111,6 @@ li {
 
 .related {
   list-style: none;
-}
-
-.main-header {
-  background-color: #efefef;
-}
-
-aside {
-  border-top: 5px solid rgb(16, 152, 173);
-  border-bottom: 5px solid rgb(16, 152, 173);
-  background-color: #efefef;
-}
-
-li:first-child {
-  font-weight: bold;
-}
-
-li:last-child {
-  font-style: italic;
 }
 
 a:any-link {
@@ -91,6 +130,7 @@ a:hover {
 a:active {
   font-style: italic;
 }
-nav {
-  font-size: 18px;
+
+#copyright {
+  font-size: 16px;
 }
