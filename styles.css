@@ -1,11 +1,6 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+body {
   color: #444;
+  font-family: sans-serif;
 }
 
 h1,
@@ -79,7 +74,7 @@ li:last-child {
   font-style: italic;
 }
 
-a:link {
+a:any-link {
   color: rgb(16, 152, 173);
   text-decoration: none;
 }
@@ -95,4 +90,7 @@ a:hover {
 
 a:active {
   font-style: italic;
+}
+nav {
+  font-size: 18px;
 }
