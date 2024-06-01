@@ -9,6 +9,11 @@ body {
   border-top: 10px solid rgb(16, 152, 173);
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 nav {
   font-size: 18px;
 }
