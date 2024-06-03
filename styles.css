@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1150px;
   margin: 0 auto;
 }
 
@@ -176,4 +176,43 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+/* FLOATS */
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.author-img {
+  float: left;
+  margin-bottom: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+article {
+  float: left;
+  width: 800px;
+}
+aside {
+  float: right;
+  width: 275px;
+}
+
+footer {
+  clear: both;
 }
