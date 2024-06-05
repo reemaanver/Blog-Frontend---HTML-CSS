@@ -181,6 +181,16 @@ button {
   right: 50px;
 }
 
+.like {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.like:hover {
+  background-color: #ddddddba;
+}
+
 /* FLOATS */
 
 /* .author {
@@ -291,15 +301,8 @@ nav {
 .main-header {
   /* grid-column: 1 / span 2; */
   grid-column: 1 / -1;
-  
 }
-article {
-  
-}
-aside {
-  
-}
+
 footer {
-  background-color: 
   grid-column: 1/ -1;
 }
