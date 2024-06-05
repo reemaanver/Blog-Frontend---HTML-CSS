@@ -78,15 +78,15 @@ p {
   margin-bottom: 15px;
 }
 
-nav a:link {
-  /* display: inline-block; */
-  /* margin-right: 30px; */
-  /* margin-top: 10px; */
-}
+/* nav a:link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+} */
 
-nav a:link:last-child {
-  /* margin-right: 0; */
-}
+/* nav a:link:last-child {
+  margin-right: 0;
+} */
 
 ul,
 ol {
